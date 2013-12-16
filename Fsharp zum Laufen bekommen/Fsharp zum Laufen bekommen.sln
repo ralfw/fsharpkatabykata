@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Bibliothek_mit_Unit_
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ausführen_als_Script", "Ausführen_als_Script\Ausführen_als_Script.fsproj", "{93AA1472-CF73-4D46-AB52-08332212C584}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Konsolenanwendung2", "Konsolenanwendung2\Konsolenanwendung2.fsproj", "{9C787AAD-60C8-4070-B4C5-1A7A7F42BCEA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Konsolenanwendung3", "Konsolenanwendung3\Konsolenanwendung3.fsproj", "{BA3BEE2F-B706-41EE-B0F8-57DC9A16456D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{93AA1472-CF73-4D46-AB52-08332212C584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93AA1472-CF73-4D46-AB52-08332212C584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AA1472-CF73-4D46-AB52-08332212C584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C787AAD-60C8-4070-B4C5-1A7A7F42BCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C787AAD-60C8-4070-B4C5-1A7A7F42BCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C787AAD-60C8-4070-B4C5-1A7A7F42BCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C787AAD-60C8-4070-B4C5-1A7A7F42BCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3BEE2F-B706-41EE-B0F8-57DC9A16456D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3BEE2F-B706-41EE-B0F8-57DC9A16456D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3BEE2F-B706-41EE-B0F8-57DC9A16456D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3BEE2F-B706-41EE-B0F8-57DC9A16456D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
