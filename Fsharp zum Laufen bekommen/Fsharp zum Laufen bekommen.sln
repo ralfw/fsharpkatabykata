@@ -13,6 +13,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Konsolenanwendung2", "Konso
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Konsolenanwendung3", "Konsolenanwendung3\Konsolenanwendung3.fsproj", "{BA3BEE2F-B706-41EE-B0F8-57DC9A16456D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1AE7E1D-6F45-46B1-AFFE-6F5550BAB99B}"
+	ProjectSection(SolutionItems) = preProject
+		hello_world.fs = hello_world.fs
+		hello_world_v2.fs = hello_world_v2.fs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
