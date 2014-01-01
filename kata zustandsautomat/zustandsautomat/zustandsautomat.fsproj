@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="reelle_zahlen.fs" />
+    <Compile Include="römische_zahlen.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
