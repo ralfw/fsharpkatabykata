@@ -10,19 +10,19 @@ let parsen tokens =
   let rec zusammenfassen asl tokens =
     match tokens with
     | 'I' :: 'M' :: rest ->
-      zusammenfassen (asl @ ["IM"])  rest
+        zusammenfassen (asl @ ["IM"])  rest
     | 'C' :: 'D' :: rest ->
-      zusammenfassen (asl @ ["CD"])  rest
+        zusammenfassen (asl @ ["CD"])  rest
     | 'X' :: 'D' :: rest ->
-      zusammenfassen (asl @ ["XC"])  rest
+        zusammenfassen (asl @ ["XC"])  rest
     | 'X' :: 'L' :: rest ->
-      zusammenfassen (asl @ ["XL"])  rest
+        zusammenfassen (asl @ ["XL"])  rest
     | 'I' :: 'X' :: rest ->
-      zusammenfassen (asl @ ["IX"])  rest
+        zusammenfassen (asl @ ["IX"])  rest
     | 'I' :: 'V' :: rest ->
-      zusammenfassen (asl @ ["IV"])  rest
+        zusammenfassen (asl @ ["IV"])  rest
     | s :: rest ->
-      zusammenfassen (asl @ [s.ToString()])  rest
+        zusammenfassen (asl @ [s.ToString()])  rest
     | [] -> asl
 
   zusammenfassen [] tokens

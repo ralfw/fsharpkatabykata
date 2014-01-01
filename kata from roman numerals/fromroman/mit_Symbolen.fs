@@ -19,19 +19,19 @@ let parsen tokens =
   let rec zusammenfassen asl tokens =
     match tokens with
     | C :: M :: rest ->
-      zusammenfassen (asl @ [CM]) rest
+        zusammenfassen (asl @ [CM]) rest
     | C :: D :: rest ->
-      zusammenfassen (asl @ [CD]) rest
+        zusammenfassen (asl @ [CD]) rest
     | X :: C :: rest ->
-      zusammenfassen (asl @ [XC]) rest
+        zusammenfassen (asl @ [XC]) rest
     | X :: L :: rest ->
-      zusammenfassen (asl @ [XL]) rest
+        zusammenfassen (asl @ [XL]) rest
     | I :: X :: rest ->
-      zusammenfassen (asl @ [IX]) rest
+        zusammenfassen (asl @ [IX]) rest
     | I :: V :: rest ->
-      zusammenfassen (asl @ [IV]) rest
+        zusammenfassen (asl @ [IV]) rest
     | s :: rest ->
-      zusammenfassen (asl @ [s]) rest
+        zusammenfassen (asl @ [s]) rest
     | [] -> asl
 
   tokens |> zusammenfassen []
@@ -48,6 +48,5 @@ let übersetzen asl =
         
 
 let fromRoman römischeZahl =
-  römischeZahl |> scannen |> parsen |> übersetzen
+    römischeZahl |> scannen |> parsen |> übersetzen
 
-printfn "%A" (fromRoman "XLII")

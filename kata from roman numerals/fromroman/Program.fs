@@ -1,3 +1,3 @@
 ﻿printfn "%d" (mit_Symbolen.fromRoman "XLII")
-printfn "%d" (mit_char.fromRoman "MMXIII")
+printfn "%d" (mit_char.fromRoman "IVMMXIII")
 
