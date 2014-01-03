@@ -1,10 +1,10 @@
-﻿module reelle_zahlen
+﻿module fließkommazahlen
 
 type Geprüft =
 | Erkannt
 | Nicht_erkannt of string
 
-// ["-"] d d* ["." d d*] 
+// ["-"] d {d} ["." d {d}] 
 let private d = "0123456789"
 let private zustandsgraph = Map [
                                     (0, [("-", 1); (d, 2)]);

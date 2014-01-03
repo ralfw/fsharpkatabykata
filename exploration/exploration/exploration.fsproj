@@ -5,12 +5,12 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>25bb8ab3-7052-4f6e-89e4-2e049fa7a224</ProjectGuid>
+    <ProjectGuid>76bb2310-2fc3-4646-8ed9-8d3ffb2840ab</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>zustandsautomat</RootNamespace>
-    <AssemblyName>zustandsautomat</AssemblyName>
+    <RootNamespace>exploration</RootNamespace>
+    <AssemblyName>exploration</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <Name>zustandsautomat</Name>
+    <Name>exploration</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\zustandsautomat.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\exploration.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\zustandsautomat.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\exploration.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -45,11 +45,8 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fließkommazahlen.fs" />
-    <Compile Include="römische_zahlen.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <None Include="interactive.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

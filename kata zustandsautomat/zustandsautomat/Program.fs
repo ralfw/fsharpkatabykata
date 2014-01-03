@@ -1,7 +1,7 @@
 ﻿let prüfen r = 
-  match reelle_zahlen.prüfen r with
-  | reelle_zahlen.Erkannt -> printfn "%s erkannt" r
-  | reelle_zahlen.Nicht_erkannt m -> printfn "%s nicht erkannt: %s" r m
+  match fließkommazahlen.prüfen r with
+  | fließkommazahlen.Erkannt -> printfn "%s erkannt" r
+  | fließkommazahlen.Nicht_erkannt m -> printfn "%s nicht erkannt: %s" r m
 
 prüfen "123"
 prüfen "123,45"
