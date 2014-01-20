@@ -1,9 +1,9 @@
-﻿module test_todictionary
+﻿module NUnit_Tests
 
 open NUnit.Framework
 
 [<TestFixture>]
-type todictionary() =
+type NUnit_tests() =
     let mehrere_Zuweisungsfälle = 
         [
             ("a=1;b=2", [("a", "1"); ("b","2")]);
@@ -20,3 +20,4 @@ type todictionary() =
     member x.mehrere_Zuweisungen() =
         let check (config, expected) = Assert.AreEqual(Map.ofList expected, ToDictionary.convert config)
         mehrere_Zuweisungsfälle |> List.iter check
+
